@@ -1,0 +1,149 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background-image: url(img/Banner.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 4rem;
+}
+/*------------------------------------------------------------------------------------INICIO: MENU---------------------------------------------------------------------------------------*/
+header{
+    height: 545px;
+    max-width: 1200px;
+    margin: 0 auto;  /* Para centralizar todo o elemento
+                          */
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    color: #3B200B0D;
+   
+                 
+}
+
+.navigation{
+    display: flex;
+    gap: 16px;
+}
+
+.navigation > a {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #635352;
+    text-decoration: none;                 /* Tirar comportamento padrao da tag a */
+}
+
+.navigation > a > span {
+    font-weight: 700;
+    color: #34201F;
+}
+
+.navigation > a:hover,
+.navigation > a > span:hover {
+    color: #F59A1B;
+    transition: all 0.2s;                
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+}
+
+.socials {
+    display: flex;               /* Para alinhar os elementos */
+    align-items: center;
+    gap: 17.5px;
+                
+}
+
+.btn-contact {
+    display: flex;
+    align-items: center;
+    background-color: #F59A1B;
+    width: 123px;
+    height: 34px;
+    justify-content: center;
+    gap: 8px;
+    border: none;
+    border-radius: 4px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    color: #34201F;
+}
+
+.btn-contact:hover {
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    transition: 0.2s;
+
+}
+
+.risco {
+    border: solid #B50B04 1px;
+    height: 47.66px;
+    margin: 0 13px
+}
+
+.hero-banner{
+    margin-top: 115px;
+    border: black solid;
+}
+
+.hero-banner > h2 {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22.86px;
+    line-height: 22.86px;
+    color: #1D0605E5;
+}
+
+.hero-banner > h1 {
+        font-family: "Lilita One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 77.65px;
+        line-height: 85.42px;
+         
+}
+
+.hero-banner > h1 > span {
+    color: #F59A1B;
+}
+
+.hero-banner > p {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22.86px;
+    line-height: 32px;
+    color: #1D0605B0;
+}
+
+.hero-banner > p > span {
+    font-weight: 900;
+}
+
+.btn-comprar{
+    margin-top: 15px;
+    
+}
